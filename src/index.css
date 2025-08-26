@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.scale-in{
+    animation: scaleIn 1000ms ease-out;  
+    animation-fill-mode: both;
+}
+
+.slide-in-up{
+    animation: slideInUp 1000ms ease-out;
+    animation-fill-mode: both;
+}
+
+.slide-in-bottom{
+    animation: slideInBottom 1000ms ease-out;
+    animation-fill-mode: both;
+}
+
+.slide-in-left{
+    animation: slideInLeft 1000ms ease-out;
+    animation-fill-mode: both;
+}
+
+.slide-in-right{
+    animation: slideInRight 1000ms ease-out;
+    animation-fill-mode: both;
+}
+
+/* Delays */
+
+.delay-100{
+    animation-delay: 100ms;
+}
+
+.delay-200{
+    animation-delay: 200ms;
+}
+
+.delay-300{
+    animation-delay: 300ms;
+}
+
+.delay-400{
+    animation-delay: 400ms;
+}
+
+.delay-500{
+    animation-delay: 500ms;
+}
+
+.delay-600{
+    animation-delay: 600ms;
+}
+
+.delay-700{
+    animation-delay: 700ms;
+}
+
+.delay-800{
+    animation-delay: 800ms;
+}
+
+.delay-900{
+    animation-delay: 900ms;
+}
+
+.delay-1000{
+    animation-delay: 1000ms;
+}
+
+/* Slide in from bottom */
+@keyframes slideInUp{
+    from {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Slide in from up */
+@keyframes slideInBottom{
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Fade and scale in */
+@keyframes scaleIn {
+  from { 
+    opacity: 0; 
+    transform: scale(0.7); 
+  }
+  to { 
+    opacity: 1; 
+    transform: scale(1); 
+  }
+}
+
+/* Slide in from right */
+@keyframes slideInRight {
+  from { 
+    opacity: 0; 
+    transform: translateX(100px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+}
+
+/* Slide in from left */
+@keyframes slideInLeft {
+  from { 
+    opacity: 0; 
+    transform: translateX(-100px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateX(0); 
+  }
+}
+
+/* Pulse */
+@keyframes pulse {
+  from { 
+    opacity: 0; 
+    transform: scale(1); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateX(1.05); 
+  }
+}
+
+/* Spin */
+@keyframes pulse {
+  from { 
+    transform: rotate(0deg); 
+  }
+  to { 
+    transform: rotate(360deg); 
+  }
+}
