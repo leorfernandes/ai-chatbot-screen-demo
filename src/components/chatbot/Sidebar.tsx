@@ -325,7 +325,10 @@ const Sidebar: React.FC<SidebarProps> = ({
               
               <button
                 onClick={() => {
-                  // This would need to be handled by parent component
+                  // Log the conversation ID that would be deleted (placeholder for actual deletion logic)
+                  if (conversationToDelete) {
+                    console.log('Would delete conversation:', conversationToDelete)
+                  }
                   setShowDeleteModal(false)
                   setConversationToDelete(null)
                 }}
