@@ -2,6 +2,11 @@
 
 A modern, responsive chat interface built with React, TypeScript, and Tailwind CSS. Features a clean, component-based architecture with advanced conversation management and simulated AI responses.
 
+## 🌐 Live Demo
+**[Try it live: ai-chatbot-screen.vercel.app](https://ai-chatbot-screen.vercel.app)**
+
+*Login with: `user123` / `pass123`*
+
 ## ✨ Key Features
 
 ### 🔐 **Authentication System**
@@ -105,11 +110,20 @@ src/
 
 ## 🚀 Getting Started
 
-### Prerequisites
+### 🌐 **Try the Live Demo**
+Visit **[ai-chatbot-screen.vercel.app](https://ai-chatbot-screen.vercel.app)** and login with:
+- Username: `user123` 
+- Password: `pass123`
+
+### 💻 **Local Development**
+
+#### 💻 **Local Development**
+
+#### Prerequisites
 - Node.js (version 16 or higher)
 - npm or yarn package manager
 
-### Quick Start
+#### Quick Start
 1. **Install dependencies:**
    ```bash
    npm install
