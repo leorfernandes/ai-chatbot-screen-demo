@@ -1,6 +1,6 @@
-# AI Chatbot Application - Upnyx Assessment
+# AI Chat Screen Demo
 
-A modern, responsive AI chatbot application built with React, TypeScript, and Tailwind CSS. Features a clean, component-based architecture with advanced conversation management.
+A modern, responsive chat interface built with React, TypeScript, and Tailwind CSS. Features a clean, component-based architecture with advanced conversation management and simulated AI responses.
 
 ## ✨ Key Features
 
@@ -9,11 +9,11 @@ A modern, responsive AI chatbot application built with React, TypeScript, and Ta
 - Session persistence with localStorage
 - Credentials: `user123` / `pass123`
 
-### 💬 **Advanced Chatbot Interface**
+### 💬 **Interactive Chat Interface**
 - **Multi-Conversation Management**: Create, edit, and delete multiple chat conversations
-- **Department-Specific Responses**: AI responses tailored to Sales, Marketing, Support, and HR departments
+- **Department-Specific Responses**: Pre-programmed responses tailored to Sales, Marketing, Support, and HR departments
 - **Real-time Interaction**: Typing indicators, message timestamps, and smooth animations
-- **Rich Message Formatting**: Support for bold text and bullet points in bot responses
+- **Rich Message Formatting**: Support for bold text and bullet points in responses
 - **Conversation History**: Persistent conversation list with last message preview
 
 ### 🏢 **Department Integration**
@@ -75,9 +75,9 @@ The built files will be in the `dist` directory.
 
 ## Usage
 
-1. **Login**: Use the credentials `user123` / `pass123` to access the chatbot
+1. **Login**: Use the credentials `user123` / `pass123` to access the chat interface
 2. **Department Selection**: Choose a department from the dropdown to see the input placeholder change
-3. **Chat**: Type your messages and receive AI-powered responses based on the selected department
+3. **Chat**: Type your messages and receive pre-programmed responses based on the selected department
 4. **Logout**: Click the logout icon in the header to return to the login screen
 
 ## 📁 Project Structure
@@ -87,7 +87,7 @@ src/
 ├── components/
 │   ├── chatbot/                    # Modular chatbot components
 │   │   ├── types.ts               # TypeScript interfaces and types
-│   │   ├── utils.ts               # Utility functions and AI response logic
+│   │   ├── utils.ts               # Utility functions and response logic
 │   │   ├── FormattedMessage.tsx   # Message formatting component
 │   │   ├── Sidebar.tsx            # Conversation management sidebar
 │   │   ├── ChatHeader.tsx         # Header with department selection
@@ -137,22 +137,22 @@ npm run preview
 
 1. **Login** with the provided credentials
 2. **Select Department** from the dropdown to get specialized responses
-3. **Start Chatting** - type questions and receive department-specific AI responses
+3. **Start Chatting** - type questions and receive department-specific responses
 4. **Create New Conversations** using the "New Chat" button
 5. **Manage Conversations** - edit titles, delete conversations, filter by department
-6. **Switch Departments** to get different types of AI assistance
+6. **Switch Departments** to get different types of assistance
 
-## 💡 AI Response Examples
+## 💡 Response Examples
 
 - **Sales**: Ask about "lead generation" or "closing deals"
 - **Marketing**: Ask about "brand awareness" or "campaign strategy"  
 - **Support**: Ask about "customer service" best practices
 - **HR**: Ask about "employee engagement" strategies
 
-## ✅ Assessment Requirements Fulfilled
+## ✅ Technical Features Implemented
 
-| Requirement | Status | Implementation |
-|-------------|--------|----------------|
+| Feature | Status | Implementation |
+|---------|--------|----------------|
 | **ReactJS Application** | ✅ | React 18 with TypeScript and modern hooks |
 | **Login Page** | ✅ | Secure authentication with validation and persistence |
 | **Hardcoded Credentials** | ✅ | `user123` / `pass123` with clear instructions |
@@ -161,9 +161,9 @@ npm run preview
 | **User-Friendly Interface** | ✅ | Modern design with smooth animations and intuitive UX |
 | **Tailwind CSS** | ✅ | Complete styling with custom design system |
 
-### 🌟 **Bonus Features Added**
+### 🌟 **Additional Features**
 - Multi-conversation management
-- Department-specific AI responses
+- Department-specific pre-programmed responses
 - Rich text formatting in messages
 - Conversation editing and deletion
 - Advanced sidebar with filtering
@@ -197,4 +197,4 @@ npm run preview
 
 ---
 
-*Built with ❤️ for the Upnyx Assessment*
+*Built with ❤️ and a lot of coffee by Leo Fernandes*

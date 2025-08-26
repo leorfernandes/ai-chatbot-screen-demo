@@ -33,10 +33,10 @@
 
 ## 🎯 Key Features to Showcase
 
-1. **Department-specific responses** - Notice how AI responds differently based on department
+1. **Department-specific responses** - Notice how the chat responds differently based on department
 2. **Conversation management** - Create new chats, edit titles, delete conversations
 3. **Responsive design** - Try resizing the window or toggle the sidebar
-4. **Rich formatting** - Bot responses include bold text and bullet points
+4. **Rich formatting** - Responses include bold text and bullet points
 5. **Smooth animations** - Notice the typing indicators and message animations
 
 ## 💡 Pro Tips
